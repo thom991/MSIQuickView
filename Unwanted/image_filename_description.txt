@@ -1,0 +1,11 @@
+name = ['mz' num2str(lower_limit_mz_value) '_' num2str(upper_limit_mz_value) 'fn' foldername 'ns' num2str(number_of_scans) 'LC' num2str(lower_limit_for_grayscale_color) 
+		'HC' num2str(higher_limit_for_grayscale_color) 'IV' num2str(val_across_interpolated_data) '_' num2str(val_down_interpolated_data) 'C' colormap_name '.tif'];
+
+
+'mz' : m/z value or range seperated by a '_'
+'fn' : folder name
+'ns' : number of lines
+'LC' : lower limit for displaying image
+'HC' : higher limit for displaying image
+'IV' : interpolated values for smoothing out the data (across, followed by down seperated by '_')
+'C' : colormap used to save the image

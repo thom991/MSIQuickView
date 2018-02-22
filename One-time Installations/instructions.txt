@@ -1,0 +1,2 @@
+Install Ghostscript from here:
+http://ghostscript.com/download/gsdnld.html

@@ -1,0 +1,5 @@
+"Location Decon2LS"
+"C:\Program Files (x86)\Decon2LS\Decon2LS.exe"
+
+"Location DeconAuto"
+"C:\Program Files (x86)\Decon2LS\Decon2LS.exe"

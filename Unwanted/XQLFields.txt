@@ -1,0 +1,10 @@
+EXTRA EVENT Scan Event:
+EXTRA SEGMENT Scan Segment:
+EXTRA ST Elapsed Scan Time (sec):
+EXTRA Z Charge State:
+EXTRA MONO Monoisotopic M/Z:
+EXTRA MASTER Master Index:
+EXTRA IT Ion Injection Time (ms):
+EXTRA USCAN Micro Scan Count:
+STATUS AUXFLOW Aux Gas Flow Rate():
+# Leave a blank line down here

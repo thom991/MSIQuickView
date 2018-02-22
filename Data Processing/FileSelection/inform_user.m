@@ -1,0 +1,2 @@
+function inform_user(String, handles, i, done_with_loop_time, m)
+set(handles.inform_user,'String',[String num2str(i) '/' num2str(m) '. Time remaining- ' num2str(done_with_loop_time.*((m)-i)) ' seconds.']);

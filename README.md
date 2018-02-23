@@ -33,10 +33,10 @@
 #will need to perform the file conversion on a Windows machine first. MSIQuickView looks for the following file 
 #structure within each dataset
 #/LungMap DatasetI
-#  /RAW
-#    /dlung1.RAW
-#    /dlung2.RAW...
-#  /CDF
-#    /dlung1.cdf
-#    /dlung2.cdf...
+###/RAW
+#####/dlung1.RAW
+#####/dlung2.RAW...
+###/CDF
+#####/dlung1.cdf
+#####/dlung2.cdf...
 #As long as the cdf files are present, it will run file on Stampede2.

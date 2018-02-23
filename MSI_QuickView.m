@@ -34,7 +34,8 @@ function varargout = MSI_QuickView(varargin)
 %Add all folders/sub-folders within MSIQuickView to the path
 if ispc
     if ~isdeployed
-        addpath(genpath('C:\MSIQuickView_code_GIT'))
+        addpath(genpath('pwd'))
+        javaaddpath(genpath('pwd'))
     end
 end
 gui_Singleton = 1;

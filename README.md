@@ -1,5 +1,5 @@
-# MSIQuickView
-# To get things running on Stampede2:
+#MSIQuickView
+#To get things running on Stampede2:
 
 #Login into Stampede2
 
@@ -10,14 +10,18 @@
 #login3.stampede2(13)$ idev -m 120
 
 #This will start the dedicated node.
-# Now lets load matlab
+#Now lets load matlab
+
 #c455-092[knl](16)$ module load matlab
+
 #c455-092[knl](16)$ matlab
+
 #This will start matlab.
 
 #Manually add these path to MATLAB each time, annoying, it resulted from some major 
 #code refactoring and will eventually be sorted out. Until then, it needs to be done 
 #manually each time.
+
 #javaaddpath(['Proven' filesep 'ProvenServerClientJavaAPI-all-1.0.jar'])
 
 #addpath(genpath(pwd))
@@ -32,6 +36,7 @@
 #however, previous versions have only been released for Windows Platforms. To work around this, you 
 #will need to perform the file conversion on a Windows machine first. MSIQuickView looks for the following file 
 #structure within each dataset
+
 #/LungMap DatasetI
 ###/RAW
 #####/dlung1.RAW
@@ -39,4 +44,5 @@
 ###/CDF
 #####/dlung1.cdf
 #####/dlung2.cdf...
+
 #As long as the cdf files are present, it will run file on Stampede2.

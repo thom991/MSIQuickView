@@ -36,7 +36,7 @@ function handles = select_multiple_datasets(pathname, handles, auto)
 %         saveTempFilesToFolder = api.read_config_values('Folder', 'saveTempFilesToFolder');
         folder_name = 'C:\Users\thom991\Desktop\MSI_testData\testset1\';% saveTempFilesToFolder];
     else
-        folder_name = uigetdir;
+        folder_name = uigetdir(pwd,'Specify where to save the excel file');
     end
     xlswrite([folder_name filesep 'workflow_files.xlsx'],X)
 end

@@ -3088,7 +3088,7 @@ for i=1:numel(handles.datasets_list)
         %% read the messages.txt file into MATLAB as a single string
         data = load_messages_txt_file(handles);
         workflow_functions = data.hasProvenance.uniqueID;
-        handles.number_of_scans = handles.num_lines_list(i);
+        handles.number_of_scans = str2num(handles.num_lines_list{i});
         A = dir([handles.pathname '*.RAW']);
         [~,idx] = sort([A.datenum]);
         handles.ll = {A(idx).name};
